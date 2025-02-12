@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d96a1fe984.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="D:/portfolio/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Webinar, Seminar and Course</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Remote Sensing & GIS Enthusiast | M.Sc in Remote Sensing and GIS | Geoinformatics</p>
+            <h1>Hi, I'm <span>Anuska</span><br>Biswas from India</h1>
+        </div>
+    </div>
+</div>
+<!------------------------about---------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="D:/portfolio/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Proficient in ArcGIS, QGIS, ERDAS Imagine, Google earth engine and programming languages like HTML, CSS and Python. 
+                    Have hands-on experience in spatial data analysis, urban land cover change detection, agricultural 
+                    crop monitoring, Glacier research. My strong analytical skills, attention to detail, and ability to 
+                    communicate technical concepts make me a valuable asset for innovative geospatial solutions. Eager to 
+                    collaborate and contribute to impactful projects in the geospatial industry. 
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>Hard Skills</span>
+                            <br>Web mapping
+                            <br>Remote sensing
+                            <br>Data visualisation
+                            <br>Data collection
+                            <br>Cartography
+                        </li>
+                        <br>
+                        <li>
+                            <span>Operations and Logistics</span>
+                            <br>Data analysis
+                            <br>Geo-referensing
+                            <br>Digitization
+                            <br>Geospatial data analysis
+                            <br>Temporal data analysis
+                        </li>
+                        <br>
+                        <li>
+                            <span>Tools and Softwares</span>
+                            <br>ArcGIS
+                            <br>Quantum GIS
+                            <br>ArcPy
+                            <br>Erdas imagine
+                            <br>PCI Geomatica
+                            <br>Google Earth engine
+                            <br>Google earth pro
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>M.Sc in Remote Sensing and GIS</span>
+                            <br>[2023 - 2025]
+                            <br><b>Institute:</b> JIS University
+                            <br>Pursuing M.Sc in Remote Sensing and GIS
+                            <br>Department of Earth Sciences and Remote Sensing
+                        </li>
+                        <br>
+                        <li>
+                            <span>B.A in Geography</span>
+                            <br>[2019 - 2022]
+                            <br><b>Institute:</b> Hooghly Women’s College.
+                            <br><b>CGPA:</b> 8.11
+                            <br>Academic excellence in Geography (Remote sensing and GIS)
+                        </li>
+                        <br>
+                        <li>
+                            <span>Higher Secondary (12th Grade)</span>
+                            <br>[2019]
+                            <br><b>Institute:</b> Binodini Girls’ High School
+                            <br><b>Percentage: </b>82.2%
+                        </li>
+                        <br>
+                        <li>
+                            <span>Secondary (10th Grade)</span>
+                            <br>[2017]
+                            <br><b>Institute:</b> Binodini Girls’ High School
+                            <br><b>Percentage: </b>81.14%
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>
+                            <span>Project Experience</span>
+                            <br>As a fresher and current M.Sc. student in Remote Sensing and GIS, I have engaged in various academic projects, including analyzing land use changes using ArcGIS and collaborating on environmental resource mapping with QGIS, ERDAS Imagine.
+                            <br>
+                            <br>My coursework has equipped me with a solid foundation in GIS technologies and data analysis, while my active participation in the academic groups has enhanced my skills.
+                        </li>
+                        <br>
+                        <li>
+                            <span>Dissertation</span>
+                            <br>Currently engaged dissertation in focused on Glacier research. 
+                            <br>
+                            <br><b>Topic: </b>
+                            <br>Response of rock glacier in changing climate: A study on Bhaga Basin, Himachal Pradesh, India.
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------sevices----------------------------------------->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">Webinar, Seminar and course</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Webinar</h2>
+                <br>
+                <p>Geospatial Technologies For Environmental Engineering: Remote Sensing and GIS in Action</p>
+                <p>Organized by the "JK CAD Infotech"</p>
+                <p>Date: 28/12/2024</p>
+                <a href="D:/portfolio/webinar_1.jpeg">Cirtificate</a>
+                <br><br>
+                <p>The Eyes in the Sky: How Remote Sensing Helps in Understanding Coastal Process</p>
+                <p>Organized by JK CAD Infoteck</p>
+                <p>Date: 04/01/2025</p>
+                <a href="D:/portfolio/webinar_2.jpeg">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h2>Seminar</h2>
+                <br>
+                <p>Remembering Bhuj Earthquake: An Awarness on Seismic Resilience</p>
+                <p>Organized by Centre for Disaster preparedness & Management Jadavpur universitty, Kolkata, India</p>
+                <p>In association with</p>
+                <p>Hijli College, Kharagpur, GRRID Corps & CRRP India</p>
+                <p>Date: 18/01/2025</p>
+                <a href="D:/portfolio/seminar.jpeg">Cirtificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>Course</h2>
+                <br>
+                <p>Short Term Course on ArcPy</p>
+                <p>Institution: KIRS[Kolkata Institute of Remote Sensing]</p>
+                <p>Date: 10/08/2024</p>
+                <a href="D:/portfolio/kirs.jpeg">Cirtificate</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="D:/portfolio/mcdm.jpg">
+                <div class="layer">
+                    <h3>MCDM</h3>
+                    <p>Thematic representation of hazard based maps using MCDM techniques.</p>
+                    <a href="D:/portfolio/mcdm.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="D:/portfolio/gee.jpg">
+                <div class="layer">
+                    <h3>Google Earth Engine</h3>
+                    <p>Various thematic representations and spatial analysis using GEE</p>
+                    <a href="D:/portfolio/web_topic.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="D:/portfolio/st.jpg">
+                <div class="layer">
+                    <h3>Spatio-temporal analysis</h3>
+                    <p>Thematic representation of Urban changes and chamging patterns using ArcGIS, QGIS and ERDAS Imagine</p>
+                    <a href="D:/portfolio/spatio_temporal.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="D:/portfolio/lds.jpg">
+                <div class="layer">
+                    <h3>Landsat image processing</h3>
+                    <p>Processings like calculation of Optimum band combination based on Landsat Images</p>
+                    <a href="D:/portfolio/landsat.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="D:/portfolio/network.jpg">
+                <div class="layer">
+                    <h3>Networking based works</h3>
+                    <p>Least cost path and Centrality analysis</p>
+                    <a href="D:/portfolio/network.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="D:/portfolio/other.jpg">
+                <div class="layer">
+                    <h3>Other works</h3>
+                    <p>Watershed prioritization, Runoff estimation and Water quality analysis</p>
+                    <a href="D:/portfolio/other.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Home</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> mailtoanuska17@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 7003873058</p>
+                <p><i class="fab fa-linkedin"></i><a href="https://linkedin.com/in/anuska-biswas-3237b730b">https://linkedin.com/in/anuska-biswas-3237b730b</a></p>
+                <p><i class="fa-solid fa-house"></i> Chinsurah (712103), Hooghly, West Bengal, India</p>
+                <a href="D:/portfolio/ANUSKA_BISWAS_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">    </span>
+            </div>
+        </div>
+    </div>
+    <!--<div class="copyright">
+        <p>Copyright © Anuska. Made wtih <i class="fas fa-heart"></i> by <a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1">Easy Tutorials</a></p>
+    </div>-->
+</div>
+
+
+<script>
+
+    var tablinks =  document.getElementsByClassName("tab-links");
+    var tabcontents =  document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");3
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwD5ovqW8etjO5XOynlt7Z2g-J_4nTAE_eKHsNMuHvhyTC-EEBDvIgNQLgPEc5GmpwH1w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
